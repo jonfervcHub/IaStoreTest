@@ -10,11 +10,5 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-  resolve: {
-    alias: {
-      // Alias @ to the src directory
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-  base: "https://github.com/jonfervcHub/IaStoreTest.git",
+  base: "/IaStoreTest/",
 });
