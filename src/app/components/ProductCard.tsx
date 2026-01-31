@@ -99,7 +99,7 @@ export function ProductCard({ product, onAddToCart }: ProductCardProps) {
         </div>
 
         {/* Controles de cantidad y botón de agregar */}
-        <div className="flex items-center gap-3 pt-2">
+        <div className="flex items-center gap-3 pt-2 relative">
           {/* Selector de cantidad */}
           <div className="flex items-center gap-2 bg-slate-800/50 rounded-lg border border-cyan-500/20 p-1">
             <button
